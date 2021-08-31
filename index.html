@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <title>BBC News Clone</title>
+    <style>
+      
+    </style>
+  </head>
+  <body class="font-inter">
+<div class="bg-black">
+  <div class="container px-4 mx-auto flex items-center whitespace-nowrap overflow-auto text-white">
+    <img class="h-6 w-auto" src="https://upload.wikimedia.org/wikipedia/commons/4/49/BBC_logo_white.svg">
+    <div class="nav">
+      <ul class="text-white">
+        <li class="inline-block py-2 pl-4 pr-16 ml-4 border-b-4 border-white border-opacity-0 hover:border-opacity-100"><a href="#"><i class="fas fa-user-circle pr-2"></i>Sign In</a></li>
+        <li class="inline-block py-2 px-4 border-b-4 border-white border-opacity-0 hover:border-opacity-100"><a href="#">Home</a></li>
+        <li class="inline-block py-2 px-4 border-b-4 border-white border-opacity-0 hover:border-opacity-100"><a href="#">News</a></li>
+        <li class="inline-block py-2 px-4 border-b-4 border-white border-opacity-0 hover:border-opacity-100"><a href="#">Sport</a></li>
+        <li class="inline-block py-2 px-4 border-b-4 border-white border-opacity-0 hover:border-opacity-100"><a href="#">Reel</a></li>
+        <li class="inline-block py-2 px-4 border-b-4 border-white border-opacity-0 hover:border-opacity-100"><a href="#">Worklife</a></li>
+        <li class="inline-block py-2 px-4 border-b-4 border-white border-opacity-0 hover:border-opacity-100"><a href="#">Travel</a></li>
+        <li class="inline-block py-2 px-4 border-b-4 border-white border-opacity-0 hover:border-opacity-100"><a href="#">Future</a></li>
+        <li class="inline-block py-2 px-4 border-b-4 border-white border-opacity-0 hover:border-opacity-100"><a href="#">Culture</a></li>
+        <li class="inline-block py-2 pl-4 pr-16 border-b-4 border-white border-opacity-0 hover:border-opacity-100"><a href="#">More</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!---welcome section-->
+<div class="py-4">
+  <div class="container px-4 mx-auto">
+    <div class="text-xl hidden font-bold lg:contents">Welcome to BBC.com</div>
+    <div class="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-x-4 gap-y-2 pt-4">
+      <div class="card md:row-span-2 md:col-span-2 relative">
+        <img class="card-image w-full brightness transition duration-300" src="https://picsum.photos/seed/ascac/540/270">
+        <div class="card-body absolute inset-x-0 bottom-0 p-4">
+          <div class="card-title text-2xl font-semibold lg:text-4xl lg:font-normal text-white"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">Exiled Taliban return to make change</a></div>
+          <div class="card-text pt-2 text-white hidden lg:contents">Lorem ipsum dolor sit amet, consectetur adipiscing elit etiam sed velit a dui aliquet mollis vel porttitor dolor.</div>
+          <div class="card-link no-decoration mt-2 pl-2 text-gray-300 border-l-2 border-red-500"><a href="#">ASIA</a></div>
+        </div> 
+      </div>
+      <div class="card lg:relative">
+        <img class="card-image hidden md:grid w-full brightness transition duration-300" src="https://picsum.photos/seed/3u95/540/270">
+        <div class="card-body lg:absolute inset-x-0 bottom-0 pb-2 lg:p-2 border-b lg:border-b-0">
+          <div class="card-title text-base lg:text-xl font-semibold  text-black lg:text-white"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">UK to welcome 20.000 Afghans amid Taliban takeover</a></div>
+          <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-black lg:text-gray-300 border-l-2 border-red-500"><a href="#">UK</a></div>
+        </div> 
+      </div>
+      <div class="card lg:relative">
+        <img class="card-image hidden md:grid w-full brightness transition duration-300" src="https://picsum.photos/seed/3uef/540/270">
+        <div class="card-body lg:absolute inset-x-0 bottom-0 pb-2 lg:p-2 border-b lg:border-b-0">
+          <div class="card-title text-base lg:text-xl font-semibold  text-black lg:text-white"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">Three Ways this crisis really hurt Biden</a></div>
+          <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-black lg:text-gray-300 border-l-2 border-red-500"><a href="#">US & CANADA</a></div>
+        </div> 
+      </div>
+      <div class="card lg:relative">
+        <img class="card-image hidden md:grid w-full brightness transition duration-300" src="https://picsum.photos/seed/3u346/540/270">
+        <div class="card-body lg:absolute inset-x-0 bottom-0 pb-2 lg:p-2 border-b lg:border-b-0">
+          <div class="card-title text-base lg:text-xl font-semibold  text-black lg:text-white"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">Taliban: Women to have rights within Islamic law</a></div>
+          <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-black lg:text-gray-300 border-l-2 border-red-500"><a href="#">ASIA</a></div>
+        </div> 
+      </div>
+      <div class="card lg:relative">
+        <img class="card-image hidden md:grid w-full brightness transition duration-300" src="https://picsum.photos/seed/3u0dsv/540/270">
+        <div class="card-body lg:absolute inset-x-0 bottom-0 pb-2 lg:p-2 border-b lg:border-b-0">
+          <div class="card-title text-base lg:text-xl font-semibold text-black lg:text-white"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">Latest transfer and Premier League News</a></div>
+          <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-black lg:text-gray-300 border-l-2 border-yellow-500"><a href="#">FOOTBALL</a></div>
+        </div> 
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--news section-->
+<div class="py-4">
+  <div class="container px-4 mx-auto">
+    <div class="text-2xl pl-4 border-l-4 border-red-500 font-bold text-gray-600">News</div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4">
+      <div class="card">
+        <div class="card-body pb-2 border-b lg:border-b-0">
+          <img class="card-image hidden md:grid w-full brightness transition duration-300" src="https://picsum.photos/seed/wekjnvs/540/270">
+          <div class="card-title text-base lg:text-xl font-semibold pt-2 text-black"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">Donec lacinia convallis vulputate</a></div>
+          <div class="card-title text-base hidden md:contents text-black pt-2">In hac habitasse platea dictumst fusce sit amet porta purus</div>
+          <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-black border-l-2 border-red-500"><a href="#">LATIN AMERICA & CARIBBEAN</a></div>
+        </div> 
+      </div>
+      <div class="card">
+        <div class="card-body pb-2 border-b lg:border-b-0">
+          <img class="card-image hidden md:grid w-full brightness transition duration-300" src="https://picsum.photos/seed/sdvwe9/540/270">
+          <div class="card-title text-base lg:text-xl font-semibold  text-black pt-2"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">Nunc vel semper nulla</a></div>
+          <div class="card-title text-base hidden md:contents text-black pt-2">Pellentesque non diam vitae nunc eleifend congue ed vitae massa vel risus pellentesque auctor</div>
+          <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-black border-l-2 border-red-500"><a href="#">SCIENCE & DEVELOPMENT</a></div>
+        </div> 
+      </div>
+      <div class="card">
+        <div class="card-body pb-2 border-b lg:border-b-0">
+          <img class="card-image hidden md:grid w-full brightness transition duration-300" src="https://picsum.photos/seed/3rkjn/540/270">
+          <div class="card-title text-base lg:text-xl font-semibold pt-2 text-black"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">Mauris vitae dapibus nulla</a></div>
+          <div class="card-title text-base hidden md:contents text-black pt-2">Mauris vel mauris sit amet leo malesuada sollicitudin at at massa</div>
+          <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-black border-l-2 border-yellow-500"><a href="#">AUSTRALIA</a></div>
+        </div> 
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Sports section-->
+<div class="py-4">
+  <div class="container px-4 mx-auto">
+    <div class="text-2xl pl-4 border-l-4 border-yellow-500 font-bold text-gray-600">Sport</div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4">
+      <div class="card">
+        <div class="card-body pb-2 border-b lg:border-b-0">
+          <img class="card-image hidden md:grid w-full brightness transition duration-300" src="https://picsum.photos/seed/kjen/540/270">
+          <div class="card-title text-base lg:text-xl font-semibold pt-2 text-black"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">Donec lacinia convallis vulputate</a></div>
+          <div class="card-title text-base hidden md:contents text-black pt-2">In hac habitasse platea dictumst fusce sit amet porta purus</div>
+          <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-black border-l-2 border-red-500"><a href="#">LATIN AMERICA & CARIBBEAN</a></div>
+        </div> 
+      </div>
+      <div class="card">
+        <div class="card-body pb-2 border-b lg:border-b-0">
+          <img class="card-image hidden md:grid w-full brightness transition duration-300" src="https://picsum.photos/seed/w3rf8d/540/270">
+          <div class="card-title text-base lg:text-xl font-semibold  text-black pt-2"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">Nunc vel semper nulla</a></div>
+          <div class="card-title text-base hidden md:contents text-black pt-2">Pellentesque non diam vitae nunc eleifend congue ed vitae massa vel risus pellentesque auctor</div>
+          <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-black border-l-2 border-red-500"><a href="#">SCIENCE & DEVELOPMENT</a></div>
+        </div> 
+      </div>
+      <div class="card">
+        <div class="card-body pb-2 border-b lg:border-b-0">
+          <img class="card-image hidden md:grid w-full brightness transition duration-300" src="https://picsum.photos/seed/qfwv9/540/270">
+          <div class="card-title text-base lg:text-xl font-semibold pt-2 text-black"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">Mauris vitae dapibus nulla</a></div>
+          <div class="card-title text-base hidden md:contents text-black pt-2">Mauris vel mauris sit amet leo malesuada sollicitudin at at massa</div>
+          <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-black border-l-2 border-yellow-500"><a href="#">AUSTRALIA</a></div>
+        </div> 
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Reel Section-->
+
+<div class="bg-black py-8">
+  <div class="card-wrapper container mx-auto px-4">
+    <div class="reel-title flex items-center justify-between text-white pb-4">
+      <div class="text-5xl leading-none font-semibold">REEL<br><span class="text-base font-normal">The most amazing videos from BBC </span></div>
+      <a href="#"><div class="rounded-full border-2 border-white px-4 py-2">Visit Reel ⟶</div></a>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="card bg-white">
+        <div class="reel-card-image">
+          <img class="w-full" src="https://picsum.photos/seed/dver9/540/270">
+        </div>
+        <div class="reel-card-body"><a href="#">Sit amet leo malesuada sollicitudin at at massa</a></div>
+      </div>
+      <div class="card bg-white">
+        <div class="reel-card-image">
+          <img class="w-full" src="https://picsum.photos/seed/iujwh/540/270">
+        </div>
+        <div class="reel-card-body"><a href="#">Sed condimentum egestas ante, et aliquet turpis aliquam vel</a></div>
+      </div>
+      <div class="card bg-white">
+        <div class="reel-card-image">
+          <img class="w-full" src="https://picsum.photos/seed/weg345/540/270">
+        </div>
+        <div class="reel-card-body"><a href="#">Nunc id sem at nisi convallis mattis non quis justo</a></div>
+      </div>
+    </div>
+      
+    </div>
+  </div>
+</div>
+
+<!--asianews section-->
+<div class="py-4">
+  <div class="container px-4 mx-auto">
+    <div class="text-2xl pl-4 border-l-4 border-red-500 font-bold text-gray-600">Asia News</div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4">
+      <div class="card">
+        <div class="card-body pb-2 border-b lg:border-b-0">
+          <img class="card-image hidden md:grid w-fullbrightness transition duration-300" src="https://picsum.photos/seed/wekjnvs/540/270">
+          <div class="card-title text-base lg:text-xl font-semibold pt-2 text-black"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">Donec lacinia convallis vulputate</a></div>
+          <div class="card-title text-base hidden md:contents text-black pt-2">In hac habitasse platea dictumst fusce sit amet porta purus</div>
+          <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-black border-l-2 border-red-500"><a href="#">ASIA</a></div>
+        </div> 
+      </div>
+      <div class="card">
+        <div class="card-body pb-2 border-b lg:border-b-0">
+          <img class="card-image hidden md:grid w-full h-full brightness transition duration-300" src="https://picsum.photos/seed/sdvwe9/540/270">
+          <div class="card-title text-base lg:text-xl font-semibold  text-black pt-2"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">Nunc vel semper nulla</a></div>
+          <div class="card-title text-base hidden md:contents text-black pt-2">Pellentesque non diam vitae nunc eleifend congue ed vitae massa vel risus pellentesque auctor</div>
+          <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-black border-l-2 border-red-500"><a href="#">ASIA</a></div>
+        </div> 
+      </div>
+      <div class="card">
+        <div class="card-body pb-2 border-b lg:border-b-0">
+          <img class="card-image hidden md:grid w-full h-full brightness transition duration-300" src="https://picsum.photos/seed/3rkjn/540/270">
+          <div class="card-title text-base lg:text-xl font-semibold pt-2 text-black"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">Mauris vitae dapibus nulla</a></div>
+          <div class="card-title text-base hidden md:contents text-black pt-2">Mauris vel mauris sit amet leo malesuada sollicitudin at at massa Mauris vel mauris sit amet leo malesuada sollicitudin at at massa Mauris vel mauris sit amet leo malesuada sollicitudin at at massa</div>
+          <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-black border-l-2 border-yellow-500"><a href="#">UK</a></div>
+        </div> 
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Editor pick section-->
+<div class="bg-gray-100 py-8">
+  <div class="container mx-auto px-4">
+    <div class="text-2xl pl-4 border-l-4 border-red-500 text-gray-600 font-bold">Editor's Pick</div>
+    <div class="flex flex-col md:flex-row items-start justify-between gap-2 md:gap-4 pt-2">
+      <div class="editor-left-section w-full md:w-8/12">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-4 pt-4">
+          <div class="card md:row-span-2 md:col-span-3 relative">
+            <img class="card-image w-full brightness transition duration-300" src="https://picsum.photos/seed/ascac/540/270">
+            <div class="card-body absolute inset-x-0 bottom-0 p-4">
+              <div class="card-title text-2xl font-semibold lg:text-4xl text-white"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">In sagittis malesuada efficitur donec</a></div>
+              <div class="card-text pt-2 text-white hidden lg:contents">Lorem ipsum dolor sit amet, consectetur adipiscing elit etiam sed velit a dui aliquet mollis vel porttitor dolor.</div>
+              <div class="card-link no-decoration mt-2 pl-2 text-gray-300 border-l-2 border-red-500"><a href="#">ASIA</a></div>
+            </div> 
+          </div>
+          <div class="card bg-white">
+            <div class="card-body pb-2 border-b lg:border-b-0">
+              <img class="card-image hidden md:grid w-full brightness transition duration-300" src="https://picsum.photos/seed/kjen/270/135">
+              <div class="p-2">
+                <div class="card-title text-base lg:text-xl font-semibold text-black"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">Donec lacinia convallis vulputate</a></div>
+                <div class="card-title text-base hidden md:contents text-black">In hac habitasse platea dictumst fusce sit amet porta purus</div>
+                <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-black border-l-2 border-red-500"><a href="#">LATIN AMERICA & CARIBBEAN</a></div>
+              </div>
+            </div> 
+          </div>
+          <div class="card bg-white">
+            <div class="card-body pb-2 border-b lg:border-b-0">
+              <img class="card-image hidden md:grid w-full brightness transition duration-300" src="https://picsum.photos/seed/jeg0x/270/135">
+              <div class="p-2">
+                <div class="card-title text-base lg:text-xl font-semibold text-black"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">Donec lacinia convallis vulputate</a></div>
+                <div class="card-title text-base hidden md:contents text-black">In hac habitasse platea dictumst fusce sit amet porta purus</div>
+                <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-black border-l-2 border-red-500"><a href="#">LATIN AMERICA & CARIBBEAN</a></div>
+              </div>
+            </div> 
+          </div>
+          <div class="card bg-white">
+            <div class="card-body pb-2 border-b lg:border-b-0">
+              <img class="card-image hidden md:grid w-full brightness transition duration-300" src="https://picsum.photos/seed/wjvc0/270/135">
+              <div class="p-2">
+                <div class="card-title text-base lg:text-xl font-semibold text-black"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">Donec lacinia convallis vulputate</a></div>
+                <div class="card-title text-base hidden md:contents text-black">In hac habitasse platea dictumst fusce sit amet porta purus</div>
+                <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-black border-l-2 border-red-500"><a href="#">LATIN AMERICA & CARIBBEAN</a></div>
+              </div>
+            </div> 
+          </div>
+          <div class="card bg-white">
+            <div class="card-body pb-2 border-b lg:border-b-0">
+              <img class="card-image hidden md:grid w-full brightness transition duration-300" src="https://picsum.photos/seed/dkjwe9/270/135">
+              <div class="p-2">
+                <div class="card-title text-base lg:text-xl font-semibold text-black"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">Donec lacinia convallis vulputate</a></div>
+                <div class="card-title text-base hidden md:contents text-black">In hac habitasse platea dictumst fusce sit amet porta purus</div>
+                <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-black border-l-2 border-red-500"><a href="#">LATIN AMERICA & CARIBBEAN</a></div>
+              </div>
+            </div> 
+          </div>
+          <div class="card bg-white">
+            <div class="card-body pb-2 border-b lg:border-b-0">
+              <img class="card-image hidden md:grid w-full brightness transition duration-300" src="https://picsum.photos/seed/scuh8/270/135">
+              <div class="p-2">
+                <div class="card-title text-base lg:text-xl font-semibold text-black"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">Donec lacinia convallis vulputate</a></div>
+                <div class="card-title text-base hidden md:contents text-black">In hac habitasse platea dictumst fusce sit amet porta purus</div>
+                <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-black border-l-2 border-red-500"><a href="#">LATIN AMERICA & CARIBBEAN</a></div>
+              </div>
+            </div> 
+          </div>
+          <div class="card bg-white">
+            <div class="card-body pb-2 border-b lg:border-b-0">
+              <img class="card-image hidden md:grid w-full brightness transition duration-300" src="https://picsum.photos/seed/sdche/270/135">
+              <div class="p-2">
+                <div class="card-title text-base lg:text-xl font-semibold text-black"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">Donec lacinia convallis vulputate</a></div>
+                <div class="card-title text-base hidden md:contents text-black">In hac habitasse platea dictumst fusce sit amet porta purus</div>
+                <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-black border-l-2 border-red-500"><a href="#">LATIN AMERICA & CARIBBEAN</a></div>
+              </div>
+            </div> 
+          </div>
+          
+        </div>
+      </div>
+      <div class="editor-right-section w-full bg-black mt-4 md:w-4/12">
+        <div class="bg-red-600 text-white p-2 font-semibold">LATEST BUSINESS NEWS</div>
+        <a href="#">
+          <div class="flex p-8 bg-gray-900 items-center gap-4">
+            <div class="bg-red-600 rounded-full py-2 px-4 text-xl text-white">1</div>
+            <div class="text-gray-200 p-2 text-xl leading-none">Nulla tellus felis, sollicitudin non pharetra id</div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="flex p-8 bg-gray-800 items-center gap-4">
+            <div class="bg-red-600 rounded-full py-2 px-4 text-xl text-white">2</div>
+            <div class="text-gray-200 p-2 text-xl leading-none">Sed vitae massa vel risus pellentesque auctor</div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="flex p-8 bg-gray-900 items-center gap-4">
+            <div class="bg-red-600 rounded-full py-2 px-4 text-xl text-white">3</div>
+            <div class="text-gray-200 p-2 text-xl leading-none">Nulla quis placerat ex, at laoreet massa</div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="flex p-8 bg-gray-800 items-center gap-4">
+            <div class="bg-red-600 rounded-full py-2 px-4 text-xl text-white">4</div>
+            <div class="text-gray-200 p-2 text-xl leading-none">Cras ac felis eu arcu lacinia bibendum in id nunc</div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="flex p-8 bg-gray-900 items-center gap-4">
+            <div class="bg-red-600 rounded-full py-2 px-4 text-xl text-white">5</div>
+            <div class="text-gray-200 p-2 text-xl leading-none">Integer tortor libero, posuere vel lobortis nec</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--new economy section-->
+<div class="container mx-auto px-4 py-8">
+  <div class="flex flex-col gap-4 md:flex-row">
+    <div class="card w-full md:w-6/12">
+      <div class="card-body">
+        <div class="card-title text-2xl font-semibold text-black pb-2"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">NEW ECONOMY</a></div>
+        <img class="card-image w-full brightness transition duration-300" src="https://picsum.photos/seed/sdche/540/270">
+        <div class="p-2">
+          <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-black border-l-2 border-red-500"><a href="#">BUSINESS</a></div>
+          <a href="#"><div class="card-title text-xl ">In hac habitasse platea dictumst fusce sit amet porta purus</div></a>
+        </div>
+      </div> 
+    </div>
+    <div class="card w-full md:w-6/12">
+      <div class="card-body">
+        <div class="card-title text-2xl font-semibold text-black pb-2"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">50 REASONS TO LOVE THE WORLD</a></div>
+        <img class="card-image w-full brightness transition duration-300" src="https://picsum.photos/seed/sd9de/540/270">
+        <div class="p-2">
+          <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-black border-l-2 border-red-500"><a href="#">TRAVEL</a></div>
+          <a href="#"><div class="card-title text-xl ">In hac habitasse platea dictumst fusce sit amet porta purus</div></a>
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
+
+<!---world in pictures section--->
+<div class="py-8 bg-gray-100">
+  <div class="container mx-auto px-4">
+    <div class="text-2xl pl-4 border-l-4 border-yellow-500 font-bold text-gray-600">World in pictures</div>
+    <div class="flex flex-col pt-4 md:flex-row gap-4">
+        <div class="left relative w-full md:w-6/12">
+          <img class="card-image w-full brightness transition duration-300" src="https://picsum.photos/seed/sd19de/540/270">
+          <div class="absolute bg-black py-4 px-6 left-0 top-0 text-white"><i class="fas fa-camera-retro transform scale-150"></i></div>
+          <div class="card-text absolute inset-x-0 bottom-0 p-4">
+            <a href="#"><div class="card-title text-xl text-white font-semibold">Aliquam erat volutpat vivamus porttitor aliquet augue</div></a>
+            <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-white border-l-2 border-red-500"><a href="#">IN PICTURES</a></div>
+          </div>
+        </div>
+        <div class="right relative w-full md:w-6/12">
+          <img class="card-image w-full brightness transition duration-300" src="https://picsum.photos/seed/sdxa0/540/270">
+          <div class="absolute bg-black py-4 px-6 left-0 top-0 text-white"><i class="fas fa-camera-retro transform scale-150"></i></div>
+          <div class="card-text absolute inset-x-0 bottom-0 p-4">
+            <a href="#"><div class="card-title text-xl text-white font-semibold">Nam fermentum ipsum massa</div></a>
+            <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-white border-l-2 border-red-500"><a href="#">IN PICTURES</a></div>
+          </div>
+        </div>
+    </div>
+    <div class="grid grid-cols-1 pt-4 md:grid-cols-3 gap-2 md:gap-4">
+      <div class="card relative bg-white">
+            <div class="absolute bg-black py-2 px-4 hidden md:block left-0 top-0 text-white z-10"><i class="fas fa-camera-retro"></i></div>
+            <div class="card-body pb-2 border-b lg:border-b-0">
+              <img class="card-image hidden md:grid w-full brightness transition duration-300" src="https://picsum.photos/seed/355/540/270">
+              <div class="p-2">
+                <div class="card-title text-base lg:text-xl font-semibold text-black"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">Donec lacinia convallis vulputate</a></div>
+                <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-black border-l-2 border-red-500"><a href="#">IN PICTURES</a></div>
+              </div>
+            </div> 
+          </div>
+      <div class="card relative bg-white">
+            <div class="absolute bg-black py-2 px-4 hidden md:block left-0 top-0 text-white z-10"><i class="fas fa-camera-retro"></i></div>
+            <div class="card-body pb-2 border-b lg:border-b-0">
+              <img class="card-image hidden md:grid w-full brightness transition duration-300" src="https://picsum.photos/seed/56/540/270">
+              <div class="p-2">
+                <div class="card-title text-base lg:text-xl font-semibold text-black"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">Donec lacinia convallis vulputate</a></div>
+                <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-black border-l-2 border-red-500"><a href="#">MIDDLE EAST</a></div>
+              </div>
+            </div> 
+          </div>
+      <div class="card relative bg-white">
+            <div class="absolute bg-black py-2 px-4 hidden md:block left-0 top-0 text-white z-10"><i class="fas fa-camera-retro"></i></div>
+            <div class="card-body pb-2 border-b lg:border-b-0">
+              <img class="card-image hidden md:grid w-full brightness transition duration-300" src="https://picsum.photos/seed/635/540/270">
+              <div class="p-2">
+                <div class="card-title text-base lg:text-xl font-semibold text-black"><a href="https://www.bbc.com/news/live/world-asia-58219963" target="_blank">Donec lacinia convallis vulputate</a></div>
+                <div class="card-link no-decoration hover:underline mt-2 text-sm lg:text-base pl-2 text-black border-l-2 border-red-500"><a href="#">ASIA</a></div>
+              </div>
+            </div> 
+          </div>
+    </div>
+    
+  </div>
+</div>
+
+<!--footer seection-->
+<div class="bg-gray-700 py-4">
+  <div class="container mx-auto px-4">
+    <div class="text-2xl font-semibold text-white">Explore the BBC</div>
+    <div class="grid grid-cols-3 md:grid-cols-6 gap-y-0 gap-x-4 pt-8 text-sm">
+      <div class="border-r">
+        <ul class="text-white leading-loose">
+          <li><a class="hover:underline" href="#">Home</a></li>
+          <li><a class="hover:underline" href="#">Future</a></li>
+        </ul>
+      </div>
+      <div class="border-r">
+        <ul class="text-white leading-loose">
+          <li><a class="hover:underline" href="#">News</a></li>
+          <li><a class="hover:underline" href="#">Culture</a></li>
+        </ul>
+      </div>
+      <div class="border-r">
+        <ul class="text-white leading-loose">
+          <li><a class="hover:underline" href="#">Sport</a></li>
+          <li><a class="hover:underline" href="#">Music</a></li>
+        </ul>
+      </div>
+      <div class="border-r">
+        <ul class="text-white leading-loose">
+          <li><a class="hover:underline" href="#">Reel</a></li>
+          <li><a class="hover:underline" href="#">TV</a></li>
+        </ul>
+      </div>
+      <div class="border-r">
+        <ul class="text-white leading-loose">
+          <li><a class="hover:underline" href="#">Wildlife</a></li>
+          <li><a class="hover:underline" href="#">Weather</a></li>
+        </ul>
+      </div>
+      <div class="border-r">
+        <ul class="text-white leading-loose">
+          <li><a class="hover:underline" href="#">Travel</a></li>
+          <li><a class="hover:underline" href="#">Sounds</a></li>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="footer-2 leading-loose">
+      <ul class="text-xs">
+        <li><a href="#">Terms of Use</a></li>
+        <li><a href="#">About the BBC</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Cookies</a></li>
+        <li><a href="#">Accessibility Help</a></li>
+        <li><a href="#">Parental Guidance</a></li>
+        <li><a href="#">Contact the BBC</a></li>
+        <li><a href="#">Get Personalised Newsletters</a></li>
+        <li><a href="#">Advertise with us</a></li>
+        <li><a href="#">AdChoices / Do Not Sell My Info</a></li>
+      </ul>
+    </div>
+    <div class="text-xs pt-4 text-white"><span class="font-bold">Copyright © 2021 BBC.</span> The BBC is not responsible for the content of external sites. <span class="font-bold">Read about our approach to external linking.</span></div>
+  </div>
+</div>
+
+
+</body>
+</html>
