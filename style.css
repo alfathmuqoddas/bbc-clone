@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.brightness{
+  filter: brightness(80%);
+}
+
+.brightness:hover {
+  filter: brightness(100%);
+}
+
+.reel-card-body{
+  padding: 1rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
+.footer-2 ul li{
+  display: inline-block;
+  color: white;
+  margin-right: 1rem;
+}
+
+.footer-2 ul li:hover{
+  text-decoration: underline;
+}
